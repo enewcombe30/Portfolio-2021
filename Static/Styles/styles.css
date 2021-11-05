@@ -1,0 +1,686 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornsilk;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background1 {
+    background-image:url('images/leaves.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96vh;
+    width:100vw;
+}
+.background2 {
+    background-image: url('images/leaves.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    transform: rotateX(180deg);
+}
+.container {
+    position: relative;
+}
+.mainText {
+    background: rgba(0 ,0 , 0, 0.6);
+    font-weight: bolder;
+    position: relative;
+    top: 28vh;
+    width: 90vw;
+    text-align: center;
+    margin: auto;
+    border-radius: 5%;
+
+}
+@media (max-width: 375px) {
+    .mainText {
+        font-size: 10vw;
+        top: 30vh;
+    }
+}
+@media (min-width: 375px) {
+    .mainText {
+        font-size: 10vw;
+        top: 30vh;
+    }
+}
+@media (min-width: 576px) {
+    .mainText {
+        font-size: 8vw;
+        top: 28vh;
+    }
+}
+@media (min-width: 768px) {
+    .mainText {
+        font-size: 6vw;
+    }
+}
+@media (min-width: 1024px) {
+    .mainText {
+        font-size: 6vw;
+    }
+}
+@media (min-width: 1200px) {
+    .mainText {
+        font-size: 6vw;
+    }
+}
+
+.bodyText {
+    background: rgba(0,0, 0, 0.6);
+    font-size: 4vw;
+    font-weight: bold;
+    position: relative;
+    top: 15vh;
+    width:60vw;
+    text-align: center;
+    margin: auto;
+    border-radius: 5%;
+}
+@media (max-width: 375px) {
+    .bodyText {
+        font-size: 8vw;
+        width: 80vw;
+    }
+}
+@media (min-width: 375px) {
+    .bodyText {
+        font-size: 8vw;
+        width:80vw;
+    }
+}
+@media (min-width: 576px) {
+    .bodyText {
+        font-size: 7vw;
+        width:70vw;
+    }
+}
+@media (min-width: 768px) {
+    .bodyText {
+        font-size: 5vw;
+        width: 60Vw;
+    }
+}
+@media (min-width: 1024px) {
+    .bodyText {
+        font-size: 5vw;
+    }
+}
+@media (min-width: 1200px) {
+    .bodyText {
+        font-size: 5vw;
+    }
+}
+
+#skill1 {
+    background: rgba(0,0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    top: 27vh;
+    left: 5vw;
+    float: left;
+    text-align: center;
+    width: 35%;
+    border-radius: 5%;
+}
+@media (max-width: 375px) {
+    #skill1 {
+        top: 25vh;
+        left: 14vw;
+        width: 70%;
+    }
+}
+@media (min-width: 375px) {
+    #skill1 {
+        top: 25vh;
+        left: 14vw;
+        width: 70%;
+    }
+}
+@media (min-width: 576px) {
+    #skill1 {
+        top: 32vh;
+        left: 5vw;
+        width: 42%;
+    }
+}
+@media (min-width: 768px) {
+    #skill1 {
+        top: 29vh;
+        left: 5vw;
+        width: 42%;
+    }
+}
+@media (min-width: 1024px) {
+    #skill1 {
+        top: 30vh;
+        left: 5vw;
+        width: 35%;
+    }
+}
+
+#skill2 {
+    background: rgba(0,0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    top: 27vh;
+    right: 5vw;
+    float: right;
+    text-align: center;
+    width: 35%;
+    border-radius: 5%;
+}
+@media (max-width: 375px) {
+    #skill2 {
+        top: 31vh;
+        right: 14vw;
+        width: 70%;
+    }
+}
+@media (min-width: 375px) {
+    #skill2 {
+        top: 31vh;
+        right: 14vw;
+        width: 70%;
+    }
+}
+@media (min-width: 576px) {
+    #skill2 {
+        top: 32vh;
+        right: 5vw;
+        width: 42%;
+    }
+}
+@media (min-width: 768px) {
+    #skill2 {
+        top: 29vh;
+        right: 5vw;
+        width: 42%;
+    }
+}
+@media (min-width: 1024px) {
+    #skill2 {
+        top: 30vh;
+        right: 5vw;
+        width: 35%;
+    }
+}
+
+#skill3 {
+    background: rgba(0,0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    top: 32vh;
+    left: 5vw;
+    float: left;
+    text-align: center;
+    width: 35%;
+    border-radius: 5%;
+}
+@media (max-width: 375px) {
+    #skill3 {
+        top: 37vh;
+        left: 14vw;
+        width: 70%;
+    }
+}
+@media (min-width: 375px) {
+    #skill3 {
+        top: 36vh;
+        left: 14vw;
+        width: 70%;
+    }
+}
+@media (min-width: 576px) {
+    #skill3 {
+        top: 48vh;
+        left: 5vw;
+        width: 42%;
+    }
+}
+@media (min-width: 768px) {
+    #skill3 {
+        top: 48vh;
+        right: 5vw;
+        width: 42%;
+    }
+}
+@media (min-width: 1024px) {
+    #skill3 {
+        top: 46vh;
+        left: 5vw;
+        width: 35%;
+    }
+}
+
+#skill4 {
+    background: rgba(0,0, 0, 0.6);
+    position: relative;
+    margin: auto;
+    top: 32vh;
+    right: 5vw;
+    float: right;
+    text-align: center;
+    width: 35%;
+    border-radius: 5%;
+}
+@media (max-width: 375px) {
+    #skill4 {
+        top: 44vh;
+        right: 14vw;
+        width: 70%;
+    }
+}
+@media (min-width: 375px) {
+    #skill4 {
+        top: 42vh;
+        right: 14vw;
+        width: 70%;
+    }
+}
+@media (min-width: 576px) {
+    #skill4 {
+        top: 48vh;
+        right: 5vw;
+        width: 42%;
+    }
+}
+@media (min-width: 768px) {
+    #skill4 {
+        top: 48vh;
+        right: 5vw;
+        width: 42%;
+    }
+}
+@media (min-width: 1024px) {
+    #skill4 {
+        top: 46vh;
+        right: 5vw;
+        width: 35%;
+    }
+}
+
+
+.picTabL {
+    background-size: cover;
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 20%;
+    float: left;
+}
+@media (max-width: 375px) {
+    .picTabL {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media (min-width: 375px) {
+    .picTabL {
+        width: 58px;
+        height: 58px;
+    }
+}
+@media (min-width: 576px) {
+    .picTabL {
+        width: 68px;
+        height: 68px;
+    }
+}
+@media (min-width: 768px) {
+    .picTabL {
+        width: 75px;
+        height: 75px;
+    }
+}
+@media (min-width: 1024px){
+    .picTabL {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+
+.pillTextL {
+   font-size: 4vh;
+   text-align: center;
+   padding-top: 3vh;
+   padding-left: 0vh;
+   font-weight: bold;
+}
+@media (max-width: 375px) {
+    .pillTextL {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-right: 8vh;
+    }
+}
+@media (min-width: 375px) {
+    .pillTextL {
+        font-size: 2vh;
+        padding-top: 2vh;
+        padding-right: 8vh;
+    }
+}
+@media (min-width: 576px) {
+    .pillTextL {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-right: 0vh;
+    }
+}
+@media (min-width: 768px) {
+    .pillTextL {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-right: 0vh;
+    }
+}
+@media (min-width: 1200px) {
+    .pillTextL {
+        font-size: 4vh;
+    }
+}
+
+.picTabR {
+    background-size: cover;
+    background-color: white;
+    width: 76px;
+    height: 76px;
+    border-radius: 20%;
+    float: right;
+}
+@media (max-width: 375px) {
+    .picTabR {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media (min-width: 375px) {
+    .picTabR {
+        width: 58px;
+        height: 58px;
+    }
+}
+@media (min-width: 576px) {
+    .picTabR {
+        width: 68px;
+        height: 68px;
+    }
+}
+@media (min-width: 768px) {
+    .picTabR {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+.pillTextR {
+    font-size: 4vh;
+    text-align: center;
+    padding-top: 3vh;
+    padding-left: 8vw;
+    font-weight: bold;
+    float:left;
+}
+@media (max-width: 375px) {
+    .pillTextR {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 23vw;
+    }
+}
+@media (min-width: 375px) {
+    .pillTextR {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 25vw;
+    }
+}
+@media (min-width: 576px) {
+    .pillTextR {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-left: 7vw;
+    }
+}
+@media (min-width: 1200px) {
+    .pillTextR {
+        font-size: 4vh;
+    }
+}
+
+.pillTextRb {
+    font-size: 4vh;
+    text-align: center;
+    padding-top: 3vh;
+    padding-left: 6vw;
+    font-weight: bold;
+    float: left;
+}
+@media (max-width: 375px) {
+    .pillTextRb {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 22vw;
+    }
+}
+@media (min-width: 375px) {
+    .pillTextRb {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 21vw;
+    }
+}
+@media (min-width: 576px) {
+    .pillTextRb {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-left: 4vw;
+    }
+}
+@media (min-width: 1200px) {
+    .pillTextRb {
+        font-size: 4vh;
+        padding-left: 5vw;
+    }
+}
+
+.pillTextRbp {
+    font-size: 4vh;
+    text-align: center;
+    padding-top: 3vh;
+    padding-left: 6vw;
+    font-weight: bold;
+    float: left;
+}
+@media (max-width: 375px) {
+    .pillTextRbp {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 23vw;
+    }
+}
+@media (min-width: 375px) {
+    .pillTextRbp {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 25vw;
+    }
+}
+@media (min-width: 576px) {
+    .pillTextRbp {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-left: 5vw;
+    }
+}
+@media (min-width: 1200px) {
+    .pillTextRbp {
+        font-size: 4vh;
+        padding-left: 7vw;
+    }
+}
+
+.pillTextLp {
+    font-size: 4vh;
+    text-align: center;
+    padding-top: 3vh;
+    padding-left: 0vh;
+    font-weight: bold;
+}
+@media (max-width: 375px) {
+    .pillTextLp {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-right: 6vh;
+    }
+}
+@media (min-width: 375px) {
+    .pillTextLp {
+        font-size: 2vh;
+        padding-top: 2vh;
+        padding-right: 6vh;
+    }
+}
+@media (min-width: 576px) {
+    .pillTextLp {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-right: 0vh;
+    }
+}
+@media (min-width: 768px) {
+    .pillTextLp {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-right: 0vh;
+    }
+}
+@media (min-width: 1200px) {
+    .pillTextLp {
+        font-size: 4vh;
+    }
+}
+
+.picTabC {
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 20%;
+    float: left;
+}
+@media (max-width: 375px) {
+    .picTabC {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media (min-width: 375px) {
+    .picTabC {
+        width: 58px;
+        height: 58px;
+    }
+}
+@media (min-width: 576px) {
+    .picTabC {
+        width: 68px;
+        height: 68px;
+    }
+}
+@media (min-width: 768px) {
+    .picTabC {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+/*.pillTextC {
+    font-size: 4vh;
+    text-align: center;
+    padding-top: 3vh;
+    padding-left: 6vw;
+    font-weight: bold;
+    float: left;
+}
+@media (max-width: 375px) {
+    .pillTextC {
+        font-size: 3vh;
+    }
+}
+@media (min-width: 375px) {
+    .pillTextC {
+        font-size: 3vh;
+    }
+}
+@media (min-width: 576px) {
+    .pillTextC {
+        font-size: 4vh;
+    }
+}*/
+
+
+.contactBody {
+    background: rgba(0,0, 0, 0.6);
+    font-size: 2vw;
+    font-weight: bold;
+    position: relative;
+    top: 25vh;
+    width: 40vw;
+    text-align: center;
+    margin: auto;
+    border-radius: 5%;
+    justify-content: flex-end;
+}
+@media (max-width: 375px) {
+    .contactBody {
+        font-size: 8vw;
+        width: 40vw;
+    }
+}
+@media (min-width: 375px) {
+    .contactBody {
+        font-size: 8vw;
+        width: 40vw;
+    }
+}
+@media (min-width: 576px) {
+    .contactBody {
+        font-size: 7vw;
+        width: 40vw;
+    }
+}
+@media (min-width: 768px) {
+    .contactBody {
+        font-size: 2vw;
+        width: 40Vw;
+    }
+}
+@media (min-width: 1024px) {
+    .contactBody {
+        font-size: 2vw;
+    }
+}
+@media (min-width: 1200px) {
+    .contactBody {
+        font-size: 2vw;
+    }
+}
+
+.footer {
+    /*Color scheme needs improving*/
+    background-image: linear-gradient( to bottom, #000210, #161956);
+    color: #ffffff;
+    width: 100vw;
+    text-align: right;
+    padding-right: 30px;
+}
+
+
