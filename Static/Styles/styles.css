@@ -568,10 +568,9 @@ wrapper {
 .contact-body {
     background: rgba(0,0, 0, 0.6);
     font-size: 2vw;
-    font-weight: bold;
     position: relative;
     top: 25vh;
-    width: 40vw;
+    width: 60vw;
     text-align: center;
     margin: auto;
     border-radius: 5%;
@@ -580,25 +579,25 @@ wrapper {
 @media (max-width: 375px) {
     .contact-body {
         font-size: 8vw;
-        width: 40vw;
+        width: 60vw;
     }
 }
 @media (min-width: 375px) {
     .contact-body {
         font-size: 8vw;
-        width: 40vw;
+        width: 60vw;
     }
 }
 @media (min-width: 576px) {
     .contact-body {
         font-size: 7vw;
-        width: 40vw;
+        width: 60vw;
     }
 }
 @media (min-width: 768px) {
     .contact-body {
         font-size: 2vw;
-        width: 40Vw;
+        width: 60Vw;
     }
 }
 @media (min-width: 1024px) {
@@ -611,6 +610,15 @@ wrapper {
         font-size: 2vw;
     }
 }
+
+
+/*.form-container{
+    text-align:center;
+    justify-content:center;
+    position:relative;
+    top:35vh;
+    left:25vw;
+}*/
 
 .footer {
     /*Color scheme needs improving*/

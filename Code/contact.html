@@ -39,19 +39,21 @@
                     </div>
                 </nav><!--end-->
                 <div class="background-1">
-                    <div class="container">
-                        <div class="body-text">
-                            Contact
-                        </div>
-                    </div>
-                    <div class="container">
-                        <form class="contact-form" action="contactform.php" method="post">
-                            <input type="text" name="name" placeholder="Full name" />
-                            <input type="text" name="mail" placeholder="Your e-mail" />
-                            <input type="text" name="subject" placeholder="Subject" />
-                            <textarea name="message" placeholder="Message"></textarea>
-                            <button type="submit" name="submit">SEND MESSAGE</button>
-                            
+                    <div class="body-text">
+                        Contact
+                    </div> 
+                    <div class="contact-body">
+                        <form class="contact-form" action="https://formspree.io/f/xgerjnjn" method="POST">
+                            <input class="contact-content" type="text" name="name" placeholder="Full name" />
+                            <br/>
+                            <input class="contact-content" type="email" name="_replyto" placeholder="Your email" />
+                            <br/>
+                            <input class="contact-content" type="text" name="subject" placeholder="Subject" /> 
+                            <br/>
+                            <textarea class="contact-content" name="message" placeholder="Message"></textarea>
+                            <br/>
+                            <button class="contact-content" type="submit" name="submit">SEND MESSAGE</button>
+
 
                         </form>
                     </div>
