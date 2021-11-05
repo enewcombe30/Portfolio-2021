@@ -11,19 +11,11 @@ wrapper {
 }
 
 .background-1 {
-    background-image:url('images/leaves.jpg');
+    background-image: url('../images/Port-images/leaves.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 96vh;
-    width:100vw;
-}
-.background2 {
-    background-image: url('images/leaves.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
     width: 100vw;
-    transform: rotateX(180deg);
 }
 .container {
     position: relative;
