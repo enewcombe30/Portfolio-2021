@@ -10,7 +10,7 @@ wrapper {
     box-sizing: border-box;
 }
 
-.background1 {
+.background-1 {
     background-image:url('images/leaves.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ wrapper {
 .container {
     position: relative;
 }
-.mainText {
+.main-text {
     background: rgba(0 ,0 , 0, 0.6);
     font-weight: bolder;
     position: relative;
@@ -40,35 +40,35 @@ wrapper {
 
 }
 @media (max-width: 375px) {
-    .mainText {
+    .main-text {
         font-size: 10vw;
         top: 30vh;
     }
 }
 @media (min-width: 375px) {
-    .mainText {
+    .main-text {
         font-size: 10vw;
         top: 30vh;
     }
 }
 @media (min-width: 576px) {
-    .mainText {
+    .main-text {
         font-size: 8vw;
         top: 28vh;
     }
 }
 @media (min-width: 768px) {
-    .mainText {
+    .main-text {
         font-size: 6vw;
     }
 }
 @media (min-width: 1024px) {
-    .mainText {
+    .main-text {
         font-size: 6vw;
     }
 }
 @media (min-width: 1200px) {
-    .mainText {
+    .main-text {
         font-size: 6vw;
     }
 }
