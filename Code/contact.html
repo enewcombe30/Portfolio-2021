@@ -12,7 +12,6 @@
 <body>
     <wrapper>
         <div id="wrapper">
-            <div>
                 <!--copied from https://getbootstrap.com/docs/5.0/components/navbar/ -->
                 <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="position: fixed;z-index: 10; width: 100%">
                     <div class="container-fluid">
@@ -39,28 +38,23 @@
                     </div>
                 </nav><!--end-->
                 <div class="background-1">
-                    <div class="body-text">
-                        Contact
-                    </div> 
-                    <div class="contact-body">
-                        <form class="contact-form" action="https://formspree.io/f/xgerjnjn" method="POST">
-                            <input class="contact-content" type="text" name="name" placeholder="Full name" />
-                            <br/>
-                            <input class="contact-content" type="email" name="_replyto" placeholder="Your email" />
-                            <br/>
-                            <input class="contact-content" type="text" name="subject" placeholder="Subject" /> 
-                            <br/>
-                            <textarea class="contact-content" name="message" placeholder="Message"></textarea>
-                            <br/>
-                            <button class="contact-content" type="submit" name="submit">SEND MESSAGE</button>
-
-
-                        </form>
+                    <div class="body-text-2">
+                        <h1>Contact</h1>
+                        <br />
+                        <br />
+                        <div class="container">
+                            <form class="contact-form" action="https://formspree.io/f/xgerjnjn" method="POST">
+                                <!--Adjust font-size in .contact-content and set breakpoints to set finalise sizes -->
+                                <input class="contact-content" type="text" name="name" placeholder="Full name" />
+                                <input class="contact-content" type="email" name="_replyto" placeholder="Your email" />
+                                <input class="contact-content" type="text" name="subject" placeholder="Subject" />
+                                <textarea class="contact-content" typeof="text" name="message" placeholder="Your Message"></textarea>
+                                <button class="contact-content" type="submit" name="submit">SEND</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
-
         <footer>
             <div class="footer" id="footer">
                 <span>

@@ -7,8 +7,8 @@ wrapper {
     color: cornsilk;
     padding: 0;
     margin: 0;
-    position: fixed;
-    box-sizing: border-box;
+    position: static;
+    /*box-sizing: border-box;*/
 }
 
 .background-1 {
@@ -110,7 +110,55 @@ wrapper {
 }
 @media (min-width: 1200px) {
     .body-text {
-        font-size: 5vw;
+       *font-size: 4vw;
+    }
+}
+
+.body-text-2 {
+    background: rgba(0,0, 0, 0.6);
+    /*font-size: 4vw;*/
+    /*font-weight: bold;*/
+    position: relative;
+    top: 15vh;
+    height: 70vh;
+    width: 60vw;
+    text-align: center;
+    margin: auto;
+    border-radius: 5%;
+}
+/*Add h1 element for contact sizing*/
+@media (max-width: 375px) {
+    .body-text {
+        /*font-size: 8vw;*/
+        width: 80vw;
+    }
+}
+@media (min-width: 375px) {
+    .body-text {
+        /*font-size: 8vw;*/
+        width: 80vw;
+    }
+}
+@media (min-width: 576px) {
+    .body-text {
+        /*font-size: 7vw;*/
+        width: 70vw;
+    }
+}
+@media (min-width: 768px) {
+    .body-text {
+        /*font-size: 5vw;*/
+        width: 60Vw;
+    }
+}
+@media (min-width: 1024px) {
+    .body-text {
+        /*font-size: 5vw;*/
+    }
+}
+@media (min-width: 1200px) {
+    .body-text {
+        /*font-size: 4vw;*/
     }
 }
 
@@ -565,60 +613,14 @@ wrapper {
     }
 }
 
-.contact-body {
-    background: rgba(0,0, 0, 0.6);
-    font-size: 2vw;
-    position: relative;
-    top: 25vh;
-    width: 60vw;
-    text-align: center;
-    margin: auto;
-    border-radius: 5%;
-    justify-content: flex-end;
-}
-@media (max-width: 375px) {
-    .contact-body {
-        font-size: 8vw;
-        width: 60vw;
-    }
-}
-@media (min-width: 375px) {
-    .contact-body {
-        font-size: 8vw;
-        width: 60vw;
-    }
-}
-@media (min-width: 576px) {
-    .contact-body {
-        font-size: 7vw;
-        width: 60vw;
-    }
-}
-@media (min-width: 768px) {
-    .contact-body {
-        font-size: 2vw;
-        width: 60Vw;
-    }
-}
-@media (min-width: 1024px) {
-    .contact-body {
-        font-size: 2vw;
-    }
-}
-@media (min-width: 1200px) {
-    .contact-body {
-        font-size: 2vw;
-    }
+.contact-content{
+    padding:2vh;
+    align-self:center;
+    font-size: 1vw;
+    width:60%;
+    /*Adjust web-kit for Chrome*/
 }
 
-
-/*.form-container{
-    text-align:center;
-    justify-content:center;
-    position:relative;
-    top:35vh;
-    left:25vw;
-}*/
 
 .footer {
     /*Color scheme needs improving*/
