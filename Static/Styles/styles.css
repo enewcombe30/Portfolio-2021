@@ -506,7 +506,7 @@ wrapper {
     font-size: 4vh;
     text-align: center;
     padding-top: 3vh;
-    padding-left: 8vw;
+    padding-left: 7vw;
     font-weight: bold;
     float:left;
 }
@@ -528,7 +528,7 @@ wrapper {
     .pic-text-right {
         font-size: 2vh;
         padding-top: 3vh;
-        padding-left: 5vw;
+        padding-left: 7vw;
     }
 }
 @media (min-width: 1200px) {
