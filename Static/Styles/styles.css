@@ -116,17 +116,14 @@ wrapper {
 
 .body-text-2 {
     background: rgba(0,0, 0, 0.6);
-    /*font-size: 4vw;*/
-    /*font-weight: bold;*/
     position: relative;
     top: 15vh;
-    height: 70vh;
+    height: 75vh;
     width: 60vw;
     text-align: center;
     margin: auto;
     border-radius: 5%;
 }
-/*Add h1 element for contact sizing*/
 @media (max-width: 375px) {
     .body-text {
         /*font-size: 8vw;*/
@@ -159,6 +156,46 @@ wrapper {
 @media (min-width: 1200px) {
     .body-text {
         /*font-size: 4vw;*/
+    }
+}
+
+#head-text {
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+@media (max-width: 375px) {
+    #head-text {
+        font-size: 8vw;
+    }
+}
+@media (min-width: 375px) {
+    #head-text {
+        font-size: 8vw;
+
+    }
+}
+@media (min-width: 576px) {
+    #head-text {
+        font-size: 7vw;
+
+    }
+}
+@media (min-width: 768px) {
+    #head-text {
+        font-size: 5vw;
+
+    }
+}
+@media (min-width: 1024px) {
+    #head-text {
+        font-size: 5vw;
+    }
+}
+@media (min-width: 1200px) {
+    #head-text {
+        *font-size: 4vw;
     }
 }
 
@@ -350,7 +387,6 @@ wrapper {
     }
 }
 
-
 .pic-tab-left {
     background-size: cover;
     background-color: white;
@@ -389,7 +425,6 @@ wrapper {
         height: 75px;
     }
 }
-
 
 .pic-text-left {
    font-size: 4vh;
@@ -614,13 +649,40 @@ wrapper {
 }
 
 .contact-content{
-    padding:2vh;
-    align-self:center;
+    padding:1vh;
+    border-radius: 25px;
     font-size: 1vw;
     width:60%;
-    /*Adjust web-kit for Chrome*/
+    margin: 2vh;
+}
+@media (max-width: 375px) {
+  
+}
+@media (min-width: 375px) {
+
+}
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1024px) {
+    .contact-content{
+        width: 60%;
+    }
+}
+@media (min-width: 1200px) {
+
 }
 
+.contact-submit {
+    padding: 1vh;
+    border-radius: 25px;
+    font-size: 1vw;
+    width: 20%;
+    margin: 2vh;
+}
 
 .footer {
     /*Color scheme needs improving*/
