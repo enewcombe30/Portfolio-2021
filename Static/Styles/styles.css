@@ -125,37 +125,39 @@ wrapper {
     border-radius: 5%;
 }
 @media (max-width: 375px) {
-    .body-text {
-        /*font-size: 8vw;*/
+    .body-text-2 {
+        height:65vh;
         width: 80vw;
     }
 }
 @media (min-width: 375px) {
-    .body-text {
-        /*font-size: 8vw;*/
+    .body-text-2 {
+        height:70vh;
         width: 80vw;
     }
 }
 @media (min-width: 576px) {
-    .body-text {
-        /*font-size: 7vw;*/
+    .body-text-2 {
+        height: 70vh;
         width: 70vw;
     }
 }
 @media (min-width: 768px) {
-    .body-text {
-        /*font-size: 5vw;*/
+    .body-text-2 {
+        height: 60vh;
         width: 60Vw;
     }
 }
 @media (min-width: 1024px) {
-    .body-text {
-        /*font-size: 5vw;*/
+    .body-text-2 {
+        height: 65vh;
+        width: 60Vw;
     }
 }
 @media (min-width: 1200px) {
-    .body-text {
-        /*font-size: 4vw;*/
+    .body-text-2 {
+        height: 75vh;
+        width: 60Vw;
     }
 }
 
@@ -648,38 +650,94 @@ wrapper {
     }
 }
 
-.contact-content{
-    padding:1vh;
-    border-radius: 25px;
-    font-size: 1vw;
-    width:60%;
-    margin: 2vh;
+.contact-form {
+    position: relative;
+    top: 2vh;
 }
 @media (max-width: 375px) {
-  
+    .contact-form {
+        top: 5vh;
+    }
 }
 @media (min-width: 375px) {
-
+    .contact-form {
+        top: 4vh;
+    }
 }
 @media (min-width: 576px) {
-
+    .contact-form {
+        top: 4vh;
+    }
 }
 @media (min-width: 768px) {
-
+    .contact-form {
+        top: 4vh;
+    }
 }
 @media (min-width: 1024px) {
-    .contact-content{
-        width: 60%;
+    .contact-form {
+        top: 6vh;
     }
 }
 @media (min-width: 1200px) {
+    .contact-form {
+        top: 2vh;
+    }
+}
 
+
+
+.contact-content {
+    background-color: cornsilk;
+    padding:1vh;
+    border-radius: 25px;
+    font-size: 1vw;
+    width: 60%;
+    margin: 2vh;
+}
+@media (max-width: 375px) {
+    .contact-content {
+        font-size: 3vw;
+        width: 80%;
+    }
+}
+@media (min-width: 375px) {
+    .contact-content {
+        font-size: 3vw;
+        width: 80%;
+    }
+}
+@media (min-width: 576px) {
+    .contact-content {
+        font-size: 3vw;
+        width: 80%;
+    }
+}
+@media (min-width: 768px) {
+    .contact-content {
+        font-size: 2vw;
+        width: 70%;
+    }
+}
+@media (min-width: 1024px) {
+    .contact-content {
+        font-size: 1vw;
+    }
+}
+@media (min-width: 1200px) {
+    .contact-content {
+        font-size: 1vw;
+        width: 60%;
+    }
 }
 
 .contact-submit {
+    background-color:cornsilk;
+    color: dimgray;
+    font-weight:bold;
     padding: 1vh;
     border-radius: 25px;
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 20%;
     margin: 2vh;
 }
