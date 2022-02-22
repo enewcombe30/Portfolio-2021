@@ -2,7 +2,7 @@
     scroll-behavior: smooth;
 }
 
-wrapper {
+body {
     font-family: Arial, Helvetica, sans-serif;
     color: cornsilk;
     padding: 0;
@@ -732,9 +732,9 @@ wrapper {
 }
 
 .contact-submit {
-    background-color:cornsilk;
+    background-color: cornsilk;
     color: dimgray;
-    font-weight:bold;
+    font-weight: bold;
     padding: 1vh;
     border-radius: 25px;
     font-size: 1.5vw;
@@ -742,8 +742,7 @@ wrapper {
     margin: 2vh;
 }
 
-.footer {
-    /*Color scheme needs improving*/
+footer{
     background-image: linear-gradient( to bottom, #000210, #161956);
     color: #ffffff;
     width: 100vw;
@@ -753,4 +752,41 @@ wrapper {
     padding-right: 30px;
 }
 
+/*------ Media Quiries ------*/
+
+@media (max-width: 375px) {
+    .contact-submit {
+        width: 60%;
+    }
+}
+
+@media (min-width: 375px) {
+    .contact-submit {
+        width: 60%;
+    }
+}
+
+@media (min-width: 576px) {
+    .contact-submit {
+        width: 40%;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-submit {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact-submit {
+        width: 20%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-submit {
+        width: 20%;
+    }
+}
 

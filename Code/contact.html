@@ -1,79 +1,70 @@
 ﻿<!DOCTYPE html>
-<html>
-<head>
-    <title>VJcontact</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../Static/Styles/styles.css" />
-    <!--copied from https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!--end-->
-</head>
-<body>
-    <wrapper>
-        <div id="wrapper">
-                <!--copied from https://getbootstrap.com/docs/5.0/components/navbar/ -->
-                <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="position: fixed;z-index: 10; width: 100%">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="../index.html"><i>VoodooJava.Co.Uk</i></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarText">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Skills.html">Skills</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="projects.html">Projects</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        More about me
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="https://github.com/enewcombe30" target="_blank">My GitHub</a></li>
-                                        <li><a class="dropdown-item" href="https://www.linkedin.com/in/enewcombe30/" target="_blank">My LinkedIn</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="https://www.instagram.com/elijahnewcombe/" target="_blank">My Instagram</a></li>
-                                    </ul>
-                                </li>
+<html lang="en-gb">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>VJcontact</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="../Static/Styles/styles.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="position: fixed;z-index: 10; width: 100%">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><i>VoodooJava.Co.Uk</i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Skills.html">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                More about me
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="https://github.com/enewcombe30" target="_blank">My GitHub</a></li>
+                                <li><a class="dropdown-item" href="https://www.linkedin.com/in/enewcombe30/" target="_blank">My LinkedIn</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="https://www.instagram.com/elijahnewcombe/" target="_blank">My Instagram</a></li>
                             </ul>
-                        </div>
-                    </div>
-                </nav><!--end-->
-                <div class="background-1">
-                    <div class="body-text-2">
-                        <h1 id="head-text">Contact me</h1>
-                        <br />
-                        <div class="container">
-                            <form class="contact-form" action="https://formspree.io/f/xgerjnjn" method="POST">
-                                <input class="contact-content" type="text" name="name" placeholder="Full name" /> 
-                                <br />
-                                <input class="contact-content" type="email" name="_replyto" placeholder="Your email" /> 
-                                <br />
-                                <input class="contact-content" type="text" name="subject" placeholder="Subject" /> 
-                                <br />
-                                <textarea class="contact-content" typeof="text" name="message" placeholder="Your Message"></textarea> 
-                                <br />
-                                <button class="contact-submit" type="submit" name="submit">SEND</button>
-                            </form>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
+            </div>
+        </nav><!--end-->
+        <div class="background-1">
+            <div class="body-text-2">
+                <h1 id="head-text">Contact me</h1>
+                <br />
+                <div class="container">
+                    <form class="contact-form" action="https://formspree.io/f/xgerjnjn" method="POST">
+                        <input class="contact-content" type="text" name="name" placeholder="Full name" /> 
+                        <br />
+                        <input class="contact-content" type="email" name="_replyto" placeholder="Your email" /> 
+                        <br />
+                        <input class="contact-content" type="text" name="subject" placeholder="Subject" /> 
+                        <br />
+                        <textarea class="contact-content" typeof="text" name="message" placeholder="Your Message"></textarea> 
+                        <br />
+                        <button id="contact-submit" type="submit" name="submit">SEND</button>
+                    </form>
+                </div>
+            </div>
         </div>
         <footer>
-            <div class="footer" id="footer">
                 <span>
-                    &copy <em>VoodooJava.Co.Uk</em> 2021
+                    &copy;<em>VoodooJava.Co.Uk</em> 2021
                 </span>
-            </div>
         </footer>
-    </wrapper>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </body>
 </html>
