@@ -138,13 +138,13 @@ body {
 }
 @media (min-width: 576px) {
     .body-text-2 {
-        height: 70vh;
+        height: 75vh;
         width: 70vw;
     }
 }
 @media (min-width: 768px) {
     .body-text-2 {
-        height: 60vh;
+        height: 75vh;
         width: 60Vw;
     }
 }
@@ -166,6 +166,7 @@ body {
     font-weight: bold;
     text-align: center;
     margin: auto;
+    color: cornsilk;
 }
 @media (max-width: 375px) {
     #head-text {
@@ -757,7 +758,7 @@ footer{
 @media (max-width: 375px) {
     .contact-submit {
         width: 60%;
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
 }
 
@@ -765,6 +766,7 @@ footer{
     .contact-submit {
         width: 60%;
         height: 8%;
+        font-size: 3.5vw;
     }
 }
 
@@ -772,6 +774,7 @@ footer{
     .contact-submit {
         width: 40%;
         height: 5%;
+        font-size: 3vw;
     }
 }
 
