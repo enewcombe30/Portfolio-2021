@@ -757,24 +757,29 @@ footer{
 @media (max-width: 375px) {
     .contact-submit {
         width: 60%;
+        font-size: 2.5vw;
     }
 }
 
 @media (min-width: 375px) {
     .contact-submit {
         width: 60%;
+        height: 8%;
     }
 }
 
 @media (min-width: 576px) {
     .contact-submit {
         width: 40%;
+        height: 5%;
     }
 }
 
 @media (min-width: 768px) {
     .contact-submit {
         width: 40%;
+        height: 5%;
+        font-size: 1.5vw;
     }
 }
 
