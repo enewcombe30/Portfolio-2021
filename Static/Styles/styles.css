@@ -655,38 +655,6 @@ body {
     position: relative;
     top: 2vh;
 }
-@media (max-width: 375px) {
-    .contact-form {
-        top: 5vh;
-    }
-}
-@media (min-width: 375px) {
-    .contact-form {
-        top: 4vh;
-    }
-}
-@media (min-width: 576px) {
-    .contact-form {
-        top: 4vh;
-    }
-}
-@media (min-width: 768px) {
-    .contact-form {
-        top: 4vh;
-    }
-}
-@media (min-width: 1024px) {
-    .contact-form {
-        top: 6vh;
-    }
-}
-@media (min-width: 1200px) {
-    .contact-form {
-        top: 2vh;
-    }
-}
-
-
 
 .contact-content {
     background-color: cornsilk;
@@ -695,41 +663,6 @@ body {
     font-size: 1vw;
     width: 60%;
     margin: 2vh;
-}
-@media (max-width: 375px) {
-    .contact-content {
-        font-size: 3vw;
-        width: 80%;
-    }
-}
-@media (min-width: 375px) {
-    .contact-content {
-        font-size: 3vw;
-        width: 80%;
-    }
-}
-@media (min-width: 576px) {
-    .contact-content {
-        font-size: 3vw;
-        width: 80%;
-    }
-}
-@media (min-width: 768px) {
-    .contact-content {
-        font-size: 2vw;
-        width: 70%;
-    }
-}
-@media (min-width: 1024px) {
-    .contact-content {
-        font-size: 1vw;
-    }
-}
-@media (min-width: 1200px) {
-    .contact-content {
-        font-size: 1vw;
-        width: 60%;
-    }
 }
 
 .contact-submit {
@@ -756,6 +689,13 @@ footer{
 /*------ Media Quiries ------*/
 
 @media (max-width: 375px) {
+    .contact-form {
+        top: 5vh;
+    }
+    .contact-content {
+        font-size: 3vw;
+        width: 80%;
+    }
     .contact-submit {
         width: 60%;
         font-size: 3.5vw;
@@ -763,6 +703,13 @@ footer{
 }
 
 @media (min-width: 375px) {
+    .contact-form {
+        top: 4vh;
+    }
+    .contact-content {
+        font-size: 3vw;
+        width: 80%;
+    }
     .contact-submit {
         width: 60%;
         height: 8%;
@@ -776,6 +723,10 @@ footer{
         height: 5%;
         font-size: 3vw;
     }
+    .contact-content {
+        font-size: 3vw;
+        width: 80%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -784,17 +735,37 @@ footer{
         height: 5%;
         font-size: 1.5vw;
     }
+    .contact-content {
+        font-size: 2vw;
+        width: 70%;
+    }
 }
 
 @media (min-width: 1024px) {
+    .contact-form {
+        top: 6vh;
+    }
+    .contact-content {
+        font-size: 1vw;
+    }
     .contact-submit {
         width: 20%;
     }
+
 }
 
 @media (min-width: 1200px) {
+    .contact-form {
+        top: 2vh;
+    }
+    .contact-content {
+        font-size: 1vw;
+        width: 60%;
+    }
     .contact-submit {
         width: 20%;
     }
+
+
 }
 
