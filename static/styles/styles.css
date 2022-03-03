@@ -555,6 +555,9 @@ footer{
         right: 5vw;
         width: 35%;
     }
+    .pic-text-right {
+        font-size: 3vh;
+    }
     .pic-tab-left {
         width: 75px;
         height: 75px;
