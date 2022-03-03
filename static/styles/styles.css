@@ -34,39 +34,6 @@ body {
     border-radius: 5%;
 
 }
-@media (max-width: 375px) {
-    .main-text {
-        font-size: 10vw;
-        top: 30vh;
-    }
-}
-@media (min-width: 375px) {
-    .main-text {
-        font-size: 10vw;
-        top: 30vh;
-    }
-}
-@media (min-width: 576px) {
-    .main-text {
-        font-size: 8vw;
-        top: 28vh;
-    }
-}
-@media (min-width: 768px) {
-    .main-text {
-        font-size: 6vw;
-    }
-}
-@media (min-width: 1024px) {
-    .main-text {
-        font-size: 6vw;
-    }
-}
-@media (min-width: 1200px) {
-    .main-text {
-        font-size: 6vw;
-    }
-}
 
 .body-text {
     background: rgba(0,0, 0, 0.6);
@@ -79,42 +46,8 @@ body {
     margin: auto;
     border-radius: 5%;
 }
-@media (max-width: 375px) {
-    .body-text {
-        font-size: 8vw;
-        width: 80vw;
-    }
-}
-@media (min-width: 375px) {
-    .body-text {
-        font-size: 8vw;
-        width: 80vw;
-    }
-}
-@media (min-width: 576px) {
-    .body-text {
-        font-size: 7vw;
-        width: 70vw;
-    }
-}
-@media (min-width: 768px) {
-    .body-text {
-        font-size: 5vw;
-        width: 60Vw;
-    }
-}
-@media (min-width: 1024px) {
-    .body-text {
-        font-size: 5vw;
-    }
-}
-@media (min-width: 1200px) {
-    .body-text {
-       *font-size: 4vw;
-    }
-}
 
-.body-text-2 {
+.contact-body-text {
     background: rgba(0,0, 0, 0.6);
     position: relative;
     top: 15vh;
@@ -124,42 +57,6 @@ body {
     margin: auto;
     border-radius: 5%;
 }
-@media (max-width: 375px) {
-    .body-text-2 {
-        height:65vh;
-        width: 80vw;
-    }
-}
-@media (min-width: 375px) {
-    .body-text-2 {
-        height:70vh;
-        width: 80vw;
-    }
-}
-@media (min-width: 576px) {
-    .body-text-2 {
-        height: 75vh;
-        width: 70vw;
-    }
-}
-@media (min-width: 768px) {
-    .body-text-2 {
-        height: 75vh;
-        width: 60Vw;
-    }
-}
-@media (min-width: 1024px) {
-    .body-text-2 {
-        height: 65vh;
-        width: 60Vw;
-    }
-}
-@media (min-width: 1200px) {
-    .body-text-2 {
-        height: 75vh;
-        width: 60Vw;
-    }
-}
 
 #head-text {
     font-size: 4vw;
@@ -167,39 +64,6 @@ body {
     text-align: center;
     margin: auto;
     color: cornsilk;
-}
-@media (max-width: 375px) {
-    #head-text {
-        font-size: 8vw;
-    }
-}
-@media (min-width: 375px) {
-    #head-text {
-        font-size: 8vw;
-
-    }
-}
-@media (min-width: 576px) {
-    #head-text {
-        font-size: 7vw;
-
-    }
-}
-@media (min-width: 768px) {
-    #head-text {
-        font-size: 5vw;
-
-    }
-}
-@media (min-width: 1024px) {
-    #head-text {
-        font-size: 5vw;
-    }
-}
-@media (min-width: 1200px) {
-    #head-text {
-        *font-size: 4vw;
-    }
 }
 
 #skill-1 {
@@ -213,41 +77,6 @@ body {
     width: 35%;
     border-radius: 5%;
 }
-@media (max-width: 375px) {
-    #skill-1 {
-        top: 25vh;
-        left: 14vw;
-        width: 70%;
-    }
-}
-@media (min-width: 375px) {
-    #skill-1 {
-        top: 25vh;
-        left: 14vw;
-        width: 70%;
-    }
-}
-@media (min-width: 576px) {
-    #skill-1 {
-        top: 32vh;
-        left: 5vw;
-        width: 42%;
-    }
-}
-@media (min-width: 768px) {
-    #skill-1 {
-        top: 29vh;
-        left: 5vw;
-        width: 42%;
-    }
-}
-@media (min-width: 1024px) {
-    #skill-1 {
-        top: 30vh;
-        left: 5vw;
-        width: 35%;
-    }
-}
 
 #skill-2 {
     background: rgba(0,0, 0, 0.6);
@@ -259,41 +88,6 @@ body {
     text-align: center;
     width: 35%;
     border-radius: 5%;
-}
-@media (max-width: 375px) {
-    #skill-2 {
-        top: 31vh;
-        right: 14vw;
-        width: 70%;
-    }
-}
-@media (min-width: 375px) {
-    #skill-2 {
-        top: 31vh;
-        right: 14vw;
-        width: 70%;
-    }
-}
-@media (min-width: 576px) {
-    #skill-2 {
-        top: 32vh;
-        right: 5vw;
-        width: 42%;
-    }
-}
-@media (min-width: 768px) {
-    #skill-2 {
-        top: 29vh;
-        right: 5vw;
-        width: 42%;
-    }
-}
-@media (min-width: 1024px) {
-    #skill-2 {
-        top: 30vh;
-        right: 5vw;
-        width: 35%;
-    }
 }
 
 #skill-3 {
@@ -307,41 +101,6 @@ body {
     width: 35%;
     border-radius: 5%;
 }
-@media (max-width: 375px) {
-    #skill-3 {
-        top: 37vh;
-        left: 14vw;
-        width: 70%;
-    }
-}
-@media (min-width: 375px) {
-    #skill-3 {
-        top: 36vh;
-        left: 14vw;
-        width: 70%;
-    }
-}
-@media (min-width: 576px) {
-    #skill-3 {
-        top: 48vh;
-        left: 5vw;
-        width: 42%;
-    }
-}
-@media (min-width: 768px) {
-    #skill-3 {
-        top: 48vh;
-        right: 5vw;
-        width: 42%;
-    }
-}
-@media (min-width: 1024px) {
-    #skill-3 {
-        top: 46vh;
-        left: 5vw;
-        width: 35%;
-    }
-}
 
 #skill-4 {
     background: rgba(0,0, 0, 0.6);
@@ -354,41 +113,6 @@ body {
     width: 35%;
     border-radius: 5%;
 }
-@media (max-width: 375px) {
-    #skill-4 {
-        top: 44vh;
-        right: 14vw;
-        width: 70%;
-    }
-}
-@media (min-width: 375px) {
-    #skill-4 {
-        top: 42vh;
-        right: 14vw;
-        width: 70%;
-    }
-}
-@media (min-width: 576px) {
-    #skill-4 {
-        top: 48vh;
-        right: 5vw;
-        width: 42%;
-    }
-}
-@media (min-width: 768px) {
-    #skill-4 {
-        top: 48vh;
-        right: 5vw;
-        width: 42%;
-    }
-}
-@media (min-width: 1024px) {
-    #skill-4 {
-        top: 46vh;
-        right: 5vw;
-        width: 35%;
-    }
-}
 
 .pic-tab-left {
     background-size: cover;
@@ -398,36 +122,6 @@ body {
     border-radius: 20%;
     float: left;
 }
-@media (max-width: 375px) {
-    .pic-tab-left {
-        width: 50px;
-        height: 50px;
-    }
-}
-@media (min-width: 375px) {
-    .pic-tab-left {
-        width: 58px;
-        height: 58px;
-    }
-}
-@media (min-width: 576px) {
-    .pic-tab-left {
-        width: 68px;
-        height: 68px;
-    }
-}
-@media (min-width: 768px) {
-    .pic-tab-left {
-        width: 75px;
-        height: 75px;
-    }
-}
-@media (min-width: 1024px){
-    .pic-tab-left {
-        width: 75px;
-        height: 75px;
-    }
-}
 
 .pic-text-left {
    font-size: 4vh;
@@ -435,39 +129,6 @@ body {
    padding-top: 3vh;
    padding-left: 0vh;
    font-weight: bold;
-}
-@media (max-width: 375px) {
-    .pic-text-left {
-        font-size: 2vh;
-        padding-top: 1vh;
-        padding-right: 8vh;
-    }
-}
-@media (min-width: 375px) {
-    .pic-text-left {
-        font-size: 2vh;
-        padding-top: 2vh;
-        padding-right: 8vh;
-    }
-}
-@media (min-width: 576px) {
-    .pic-text-left {
-        font-size: 3vh;
-        padding-top: 3vh;
-        padding-right: 0vh;
-    }
-}
-@media (min-width: 768px) {
-    .pic-text-left {
-        font-size: 3vh;
-        padding-top: 3vh;
-        padding-right: 0vh;
-    }
-}
-@media (min-width: 1200px) {
-    .pic-text-left {
-        font-size: 4vh;
-    }
 }
 
 .pic-tab-right {
@@ -478,30 +139,6 @@ body {
     border-radius: 20%;
     float: right;
 }
-@media (max-width: 375px) {
-    .pic-tab-right {
-        width: 50px;
-        height: 50px;
-    }
-}
-@media (min-width: 375px) {
-    .pic-tab-right {
-        width: 58px;
-        height: 58px;
-    }
-}
-@media (min-width: 576px) {
-    .pic-tab-right {
-        width: 68px;
-        height: 68px;
-    }
-}
-@media (min-width: 768px) {
-    .pic-tab-right {
-        width: 75px;
-        height: 75px;
-    }
-}
 
 .pic-text-right {
     font-size: 4vh;
@@ -510,32 +147,6 @@ body {
     padding-left: 7vw;
     font-weight: bold;
     float:left;
-}
-@media (max-width: 375px) {
-    .pic-text-right {
-        font-size: 2vh;
-        padding-top: 1vh;
-        padding-left: 23vw;
-    }
-}
-@media (min-width: 375px) {
-    .pic-text-right {
-        font-size: 2vh;
-        padding-top: 1vh;
-        padding-left: 18vw;
-    }
-}
-@media (min-width: 576px) {
-    .pic-text-right {
-        font-size: 2vh;
-        padding-top: 3vh;
-        padding-left: 7vw;
-    }
-}
-@media (min-width: 1200px) {
-    .pic-text-right {
-        font-size: 4vh;
-    }
 }
 
 .pic-text-right-bottom {
@@ -546,33 +157,6 @@ body {
     font-weight: bold;
     float: left;
 }
-@media (max-width: 375px) {
-    .pic-text-right-bottom {
-        font-size: 2vh;
-        padding-top: 1vh;
-        padding-left: 22vw;
-    }
-}
-@media (min-width: 375px) {
-    .pic-text-right-bottom {
-        font-size: 2vh;
-        padding-top: 1vh;
-        padding-left: 21vw;
-    }
-}
-@media (min-width: 576px) {
-    .pic-text-right-bottom {
-        font-size: 3vh;
-        padding-top: 3vh;
-        padding-left: 4vw;
-    }
-}
-@media (min-width: 1200px) {
-    .pic-text-right-bottom {
-        font-size: 4vh;
-        padding-left: 5vw;
-    }
-}
 
 .proj-text-left {
     font-size: 4vh;
@@ -580,39 +164,6 @@ body {
     padding-top: 3vh;
     padding-left: 0vh;
     font-weight: bold;
-}
-@media (max-width: 375px) {
-    .proj-text-left {
-        font-size: 2vh;
-        padding-top: 1vh;
-        padding-right: 6vh;
-    }
-}
-@media (min-width: 375px) {
-    .proj-text-left {
-        font-size: 2vh;
-        padding-top: 2vh;
-        padding-right: 6vh;
-    }
-}
-@media (min-width: 576px) {
-    .proj-text-left {
-        font-size: 3vh;
-        padding-top: 3vh;
-        padding-right: 0vh;
-    }
-}
-@media (min-width: 768px) {
-    .proj-text-left {
-        font-size: 3vh;
-        padding-top: 3vh;
-        padding-right: 0vh;
-    }
-}
-@media (min-width: 1200px) {
-    .proj-text-left {
-        font-size: 4vh;
-    }
 }
 
 .proj-text-right-bottom {
@@ -622,33 +173,6 @@ body {
     padding-left: 6vw;
     font-weight: bold;
     float: left;
-}
-@media (max-width: 375px) {
-    .proj-text-right-bottom {
-        font-size: 2vh;
-        padding-top: 1vh;
-        padding-left: 23vw;
-    }
-}
-@media (min-width: 375px) {
-    .proj-text-right-bottom {
-        font-size: 2vh;
-        padding-top: 1vh;
-        padding-left: 25vw;
-    }
-}
-@media (min-width: 576px) {
-    .proj-text-right-bottom {
-        font-size: 3vh;
-        padding-top: 3vh;
-        padding-left: 5vw;
-    }
-}
-@media (min-width: 1200px) {
-    .proj-text-right-bottom {
-        font-size: 4vh;
-        padding-left: 7vw;
-    }
 }
 
 .contact-form {
@@ -689,6 +213,18 @@ footer{
 /*------ Media Quiries ------*/
 
 @media (max-width: 375px) {
+    .main-text {
+        font-size: 10vw;
+        top: 30vh;
+    }
+    .body-text {
+        font-size: 8vw;
+        width: 80vw;
+    }
+    .contact-body-text {
+        height: 65vh;
+        width: 80vw;
+    }
     .contact-form {
         top: 5vh;
     }
@@ -700,9 +236,77 @@ footer{
         width: 60%;
         font-size: 3.5vw;
     }
+    #head-text {
+        font-size: 8vw;
+    }
+    #skill-1 {
+        top: 25vh;
+        left: 14vw;
+        width: 70%;
+    }
+    #skill-2 {
+        top: 31vh;
+        right: 14vw;
+        width: 70%;
+    }
+    #skill-3 {
+        top: 37vh;
+        left: 14vw;
+        width: 70%;
+    }
+    #skill-4 {
+        top: 44vh;
+        right: 14vw;
+        width: 70%;
+    }
+    .pic-tab-left {
+        width: 50px;
+        height: 50px;
+    }
+    .pic-text-left {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-right: 8vh;
+    }
+    .pic-tab-right {
+        width: 50px;
+        height: 50px;
+    }
+    .pic-text-right {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 23vw;
+    }
+    .pic-text-right-bottom {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 22vw;
+    }
+    .proj-text-left {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-right: 6vh;
+    }
+    .proj-text-right-bottom {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 23vw;
+    }
 }
 
 @media (min-width: 375px) {
+    .main-text {
+        font-size: 10vw;
+        top: 30vh;
+    }
+    .body-text {
+        font-size: 8vw;
+        width: 80vw;
+    }
+    .contact-body-text {
+        height: 70vh;
+        width: 80vw;
+    }
     .contact-form {
         top: 4vh;
     }
@@ -715,9 +319,74 @@ footer{
         height: 8%;
         font-size: 3.5vw;
     }
+    #skill-1 {
+        top: 25vh;
+        left: 14vw;
+        width: 70%;
+    }
+    #skill-2 {
+        top: 31vh;
+        right: 14vw;
+        width: 70%;
+    }
+    #skill-3 {
+        top: 36vh;
+        left: 14vw;
+        width: 70%;
+    }
+    #skill-4 {
+        top: 42vh;
+        right: 14vw;
+        width: 70%;
+    }
+    .pic-tab-left {
+        width: 58px;
+        height: 58px;
+    }
+    .pic-text-left {
+        font-size: 2vh;
+        padding-top: 2vh;
+        padding-right: 8vh;
+    }
+    .pic-tab-right {
+        width: 58px;
+        height: 58px;
+    }
+    .pic-text-right {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 18vw;
+    }
+    .pic-text-right-bottom {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 21vw;
+    }
+    .proj-text-left {
+        font-size: 2vh;
+        padding-top: 2vh;
+        padding-right: 6vh;
+    }
+    .proj-text-right-bottom {
+        font-size: 2vh;
+        padding-top: 1vh;
+        padding-left: 25vw;
+    }
 }
 
 @media (min-width: 576px) {
+    .main-text {
+        font-size: 8vw;
+        top: 28vh;
+    }
+    .body-text {
+        font-size: 7vw;
+        width: 70vw;
+    }
+    .contact-body-text {
+        height: 75vh;
+        width: 70vw;
+    }
     .contact-submit {
         width: 40%;
         height: 5%;
@@ -727,9 +396,76 @@ footer{
         font-size: 3vw;
         width: 80%;
     }
+    #head-text {
+        font-size: 7vw;
+    }
+    #skill-1 {
+        top: 32vh;
+        left: 5vw;
+        width: 42%;
+    }
+    #skill-2 {
+        top: 32vh;
+        right: 5vw;
+        width: 42%;
+    }
+    #skill-3 {
+        top: 48vh;
+        left: 5vw;
+        width: 42%;
+    }
+    #skill-4 {
+        top: 48vh;
+        right: 5vw;
+        width: 42%;
+    }
+    .pic-tab-left {
+        width: 68px;
+        height: 68px;
+    }
+    .pic-text-left {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-right: 0vh;
+    }
+    .pic-tab-right {
+        width: 68px;
+        height: 68px;
+    }
+    .pic-text-right {
+        font-size: 2vh;
+        padding-top: 3vh;
+        padding-left: 7vw;
+    }
+    .pic-text-right-bottom {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-left: 4vw;
+    }
+    .proj-text-left {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-right: 0vh;
+    }
+    .proj-text-right-bottom {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-left: 5vw;
+    }
 }
 
 @media (min-width: 768px) {
+    .main-text {
+        font-size: 6vw;
+    }
+    .body-text {
+        font-size: 5vw;
+        width: 60Vw;
+    }
+    .contact-body-text {
+        height: 75vh;
+        width: 60Vw;
+    }
     .contact-submit {
         width: 40%;
         height: 5%;
@@ -739,9 +475,57 @@ footer{
         font-size: 2vw;
         width: 70%;
     }
+    #head-text {
+        font-size: 5vw;
+    }
+    #skill-1 {
+        top: 29vh;
+        left: 5vw;
+        width: 42%;
+    }
+    #skill-2 {
+        top: 29vh;
+        right: 5vw;
+        width: 42%;
+    }
+    #skill-3 {
+        top: 48vh;
+        right: 5vw;
+        width: 42%;
+    }
+    #skill-4 {
+        top: 48vh;
+        right: 5vw;
+        width: 42%;
+    }
+    .pic-tab-left {
+        width: 75px;
+        height: 75px;
+    }
+    .pic-text-left {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-right: 0vh;
+    }
+    .pic-tab-right {
+        width: 75px;
+        height: 75px;
+    }
+    .proj-text-left {
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-right: 0vh;
+    }
 }
 
 @media (min-width: 1024px) {
+    .body-text {
+        font-size: 5vw;
+    }
+    .contact-body-text {
+        height: 65vh;
+        width: 60Vw;
+    }
     .contact-form {
         top: 6vh;
     }
@@ -751,10 +535,40 @@ footer{
     .contact-submit {
         width: 20%;
     }
-
+    #skill-1 {
+        top: 30vh;
+        left: 5vw;
+        width: 35%;
+    }
+    #skill-2 {
+        top: 30vh;
+        right: 5vw;
+        width: 35%;
+    }
+    #skill-3 {
+        top: 46vh;
+        left: 5vw;
+        width: 35%;
+    }
+    #skill-4 {
+        top: 46vh;
+        right: 5vw;
+        width: 35%;
+    }
+    .pic-tab-left {
+        width: 75px;
+        height: 75px;
+    }
 }
 
 @media (min-width: 1200px) {
+    .body-text {
+        font-size: 4vw;
+    }
+    .contact-body-text {
+        height: 75vh;
+        width: 60Vw;
+    }
     .contact-form {
         top: 2vh;
     }
@@ -765,7 +579,25 @@ footer{
     .contact-submit {
         width: 20%;
     }
-
-
+    #head-text {
+        font-size: 4vw;
+    }
+    .pic-text-left {
+        font-size: 4vh;
+    }
+    .pic-text-right {
+        font-size: 4vh;
+    }
+    .pic-text-right-bottom {
+        font-size: 4vh;
+        padding-left: 5vw;
+    }
+    .proj-text-left {
+        font-size: 4vh;
+    }
+    .proj-text-right-bottom {
+        font-size: 4vh;
+        padding-left: 7vw;
+    }
 }
 
